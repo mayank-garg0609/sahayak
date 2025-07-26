@@ -3,7 +3,6 @@ import '../services/ai_service.dart';
 import '../services/visual_aid_service.dart';
 import '../agents/memory/teacher_memory.dart';
 import '../agents/base_agent.dart';
-import '../models/agent_event.dart';
 
 class VisualAidGeneratorAgent extends BaseAgent {
   final VoiceService voiceService;
