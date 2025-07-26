@@ -1,0 +1,46 @@
+name: sahayak_hello
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  # UI
+  cupertino_icons: ^1.0.8
+  
+  # Firebase packages
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.6
+  firebase_auth: ^4.15.3
+  
+  # Google Cloud dependencies
+  googleapis: ^13.2.0
+  googleapis_auth: ^1.6.0
+  
+  # Voice integration
+  speech_to_text: ^7.0.0
+  flutter_tts: ^3.8.5
+  permission_handler: ^11.3.1
+  
+  # Storage and utilities
+  http: ^1.2.1
+  hive: ^2.2.3
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# ✅ SINGLE FLUTTER SECTION WITH ASSETS
+flutter:
+  uses-material-design: true
+  
+  # Assets for Google Cloud service account
+  assets:
+    - assets/google_service_account.json
